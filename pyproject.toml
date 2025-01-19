@@ -1,0 +1,21 @@
+[tool.poetry]
+name = 'unet3d'
+version = '0.1.0'
+description = 'Single-file PyTorch implementations of 3D UNet architectures'
+authors = ['codingfisch <l_fisc17@wwu.de>']
+license = 'MIT'
+readme = 'README.md'
+repository = 'https://github.com/codingfisch/unet3d'
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'Operating System :: OS Independent',
+    'Intended Audience :: Science/Research'
+]
+
+[tool.poetry.dependencies]
+python = '^3.9'
+torch = '*'
+
+[build-system]
+requires = ['poetry-core']
+build-backend = 'poetry.core.masonry.api'
