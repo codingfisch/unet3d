@@ -1,7 +1,7 @@
 [tool.poetry]
 name = 'unet3d'
 version = '0.1.0'
-description = 'Single-file PyTorch implementations of 3D UNet architectures'
+description = 'Single-file PyTorch implementations of 3D UNets'
 authors = ['codingfisch <l_fisc17@wwu.de>']
 license = 'MIT'
 readme = 'README.md'
